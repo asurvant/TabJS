@@ -1,0 +1,16 @@
+{
+  "name": "Tab JS",
+  "version": "0.1",
+  "description": "Turn new tabs into light-weight and non-intrusive mini JavaScript IDEs!",
+  "icons": {
+    "64": "icons/icon_64.png",
+    "128": "icons/icon_128.png",
+    "256": "icons/icon_256.png"
+  },
+  "permissions": ["tabs"],
+  "chrome_url_overrides" : {
+    "newtab": "tabjs.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}
